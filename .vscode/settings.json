@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true, // 保存時にコードを自動整形
+    "files.associations": {
+        "*.cs": "csharp" // .csファイルをC#として扱う
+    },
+    "omnisharp.useModernNet": true, // .NET環境で最新のOmniSharpを使用
+    "omnisharp.enableRoslynAnalyzers": true, // Roslynアナライザーを有効にする
+    "omnisharp.enableEditorConfigSupport": true, // .editorconfigをサポート
+    "csharp.suppressNullableWarningExpressions": true // C#のNullable警告を抑制
+    "vstuc.displayBackgroundProcesses": true,
+    "vstuc.refreshOnSave": true
+}
