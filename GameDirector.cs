@@ -44,7 +44,6 @@ public class GameDirector : MonoBehaviour
     // }
 
     //エラーが出ていたようなので、関数を少し修正しました。赤文字のデバックログは死のカウントダウンです。
-    //関数の中身のことで質問があれば気楽に石田まで！
     public void DecreaseHp(int decrease_hp)
     {
         Debug.Log("ダメージ");
