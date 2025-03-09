@@ -30,7 +30,6 @@ public class PlayerDamageController : MonoBehaviour
 
     //PlayerDamageController内で受けたダメージ計算、反映もさせるようにしました。
     //これから先敵が増えていく中で、こっちの方が調整しやすいと思ったからです。
-    //何か質問があれば石田まで
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "enemy")
